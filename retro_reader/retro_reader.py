@@ -558,6 +558,7 @@ class RetroReader:
             C.QUESTION_COLUMN_NAME: [query], 
             C.CONTEXT_COLUMN_NAME: [context]
         })
+        print(predict_examples)
         return self.inference(predict_examples)
     
     def train(self, module: str = "all"):
@@ -583,9 +584,9 @@ class RetroReader:
             self.intensive_reader.free_memory()
             wandb_finish(self.intensive_reader)
             
-    def inference(self, test_dataset: datasets.Dataset) -> Tuple[Any]:
-        if "example_id" not in test_dataset.column_names:
-            test_dataset = test_dataset.map(
+    def inference(self, predict_examples: datasets.Dataset) -> Tuple[Any]:
+        if "example_id" not in predict_examples.column_names:
+            predict_examples = predict_examples.map(
                 lambda _, i: {"example_id": str(i)},
                 with_indices=True,
             )
@@ -599,15 +600,16 @@ class RetroReader:
             batched=True,
             remove_columns=predict_examples.column_names,
         )
-        self.sketch_reader.to(self.sketch_reader.args.device)
+        # self.sketch_reader.to(self.sketch_reader.args.device)
         score_ext = self.sketch_reader.predict(sketch_features, predict_examples)
-        self.sketch_reader.to("cpu")
-        self.intensive_reader.to(self.intensive_reader.args.device)
+        # self.sketch_reader.to("cpu")
+        # self.intensive_reader.to(self.intensive_reader.args.device)
         nbest_preds, score_diff = self.intensive_reader.predict(
             intensive_features, predict_examples, mode="retro_inference")
-        self.intensive_reader.to("cpu")
+        # self.intensive_reader.to("cpu")
         predictions, scores = self.rear_verifier(score_ext, score_diff, nbest_preds)
         outputs = (predictions, scores)
+        return_submodule_outputs = True
         if return_submodule_outputs:
             outputs += (score_ext, nbest_preds, score_diff)
         return outputs

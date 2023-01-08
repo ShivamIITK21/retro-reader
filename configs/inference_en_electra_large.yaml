@@ -28,7 +28,7 @@ RetroDataModelArguments:
     sketch_architectures: ElectraForSequenceClassification
     
     # IntensiveModelArguments
-    intensive_revision: en-electra-largs-intensive
+    intensive_revision: en-electra-large-intensive
     intensive_model_name: jinmang2/retro-reader
     intensive_architectures: ElectraForQuestionAnsweringAVPool
     

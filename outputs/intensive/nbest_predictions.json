@@ -1,0 +1,130 @@
+{
+    "id-01": [
+        {
+            "start_logit": 7.999095439910889,
+            "end_logit": 8.703619003295898,
+            "text": "late 1990s",
+            "probability": 0.9145715236663818
+        },
+        {
+            "start_logit": 4.969646453857422,
+            "end_logit": 8.703619003295898,
+            "text": "in the late 1990s",
+            "probability": 0.04421243816614151
+        },
+        {
+            "start_logit": 4.74573278427124,
+            "end_logit": 8.703619003295898,
+            "text": "the late 1990s",
+            "probability": 0.0353427417576313
+        },
+        {
+            "start_logit": 2.846531391143799,
+            "end_logit": 8.703619003295898,
+            "text": "1990s",
+            "probability": 0.005290383007377386
+        },
+        {
+            "start_logit": 7.999095439910889,
+            "end_logit": 0.42595183849334717,
+            "text": "late 1990s as lead singer of R&B girl-group Destiny's Child.",
+            "probability": 0.00023241927556227893
+        },
+        {
+            "start_logit": 7.999095439910889,
+            "end_logit": -0.18307116627693176,
+            "text": "late 1990s as lead singer of R&B girl-group Destiny's Child",
+            "probability": 0.0001264087768504396
+        },
+        {
+            "start_logit": 7.999095439910889,
+            "end_logit": -0.7555217742919922,
+            "text": "late",
+            "probability": 7.131239544833079e-05
+        },
+        {
+            "start_logit": -1.9773154258728027,
+            "end_logit": 8.703619003295898,
+            "text": "rose to fame in the late 1990s",
+            "probability": 4.251253994880244e-05
+        },
+        {
+            "start_logit": 7.999095439910889,
+            "end_logit": -1.7098109722137451,
+            "text": "late 1990s as",
+            "probability": 2.7461381250759587e-05
+        },
+        {
+            "start_logit": -2.8063156604766846,
+            "end_logit": 8.703619003295898,
+            "text": "fame in the late 1990s",
+            "probability": 1.8556118448032066e-05
+        },
+        {
+            "start_logit": 7.999095439910889,
+            "end_logit": -2.263298511505127,
+            "text": "late 1990s as lead singer of R&B girl-group",
+            "probability": 1.5788673408678733e-05
+        },
+        {
+            "start_logit": 4.969646453857422,
+            "end_logit": 0.42595183849334717,
+            "text": "in the late 1990s as lead singer of R&B girl-group Destiny's Child.",
+            "probability": 1.1235680176469032e-05
+        },
+        {
+            "start_logit": 4.74573278427124,
+            "end_logit": 0.42595183849334717,
+            "text": "the late 1990s as lead singer of R&B girl-group Destiny's Child.",
+            "probability": 8.981620339909568e-06
+        },
+        {
+            "start_logit": 4.969646453857422,
+            "end_logit": -0.18307116627693176,
+            "text": "in the late 1990s as lead singer of R&B girl-group Destiny's Child",
+            "probability": 6.110883532528533e-06
+        },
+        {
+            "start_logit": 7.999095439910889,
+            "end_logit": -3.3915669918060303,
+            "text": "late 1990s as lead singer of R&B girl-group Destiny's Child. Managed by her father, Mathew Knowles",
+            "probability": 5.109106950840214e-06
+        },
+        {
+            "start_logit": 4.74573278427124,
+            "end_logit": -0.18307116627693176,
+            "text": "the late 1990s as lead singer of R&B girl-group Destiny's Child",
+            "probability": 4.884945610683644e-06
+        },
+        {
+            "start_logit": 4.969646453857422,
+            "end_logit": -0.7555217742919922,
+            "text": "in the late",
+            "probability": 3.44740146829281e-06
+        },
+        {
+            "start_logit": -4.50255823135376,
+            "end_logit": 8.703619003295898,
+            "text": "Houston, Texas, she performed in various singing and dancing competitions as a child, and rose to fame in the late 1990s",
+            "probability": 3.4026593311864417e-06
+        },
+        {
+            "start_logit": 4.74573278427124,
+            "end_logit": -0.7555217742919922,
+            "text": "the late",
+            "probability": 2.7557991870708065e-06
+        },
+        {
+            "start_logit": 7.999095439910889,
+            "end_logit": -4.044261455535889,
+            "text": "late 1990s as lead singer of R&B girl-group Destiny",
+            "probability": 2.66001029558538e-06
+        },
+        {
+            "start_logit": -2.325676918029785,
+            "end_logit": -1.5759283304214478,
+            "text": "",
+            "probability": 1.0300894581760645e-09
+        }
+    ]
+}
